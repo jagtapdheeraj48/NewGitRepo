@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="MIx Testing">
+  	<groups>
+  		<run>
+  			<exclude name="classic"></exclude>
+  			<exclude name="latest"></exclude>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="tutorial3.demo2"/>
+      <class name="tutorial3.demo3"/>
+      <class name="tutorial3.demo1"/>
+    </classes>
+  </test> <!-- MIx Testing -->
+</suite> <!-- Suite -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ whole Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" all Test(failed)">
+    <classes>
+      <class name="tutorial1.demo6">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="marketPlace"/>
+        </methods>
+      </class> <!-- tutorial1.demo6 -->
+      <class name="tutorial1.demo3">
+        <methods>
+          <include name="logotfunctionality"/>
+          <include name="pimFunctionality"/>
+        </methods>
+      </class> <!-- tutorial1.demo3 -->
+      <class name="tutorial1.demo5">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="loginFunctionality"/>
+        </methods>
+      </class> <!-- tutorial1.demo5 -->
+    </classes>
+  </test> <!--  all Test(failed) -->
+</suite> <!-- Failed suite [ whole Suite] -->
